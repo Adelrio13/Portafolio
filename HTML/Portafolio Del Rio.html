@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sobre mi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Anthony</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a class="nav-item" href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a class="nav-item" href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a class="nav-item" href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a class="nav-item" href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a class="nav-item" href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SECCION DE INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./profile-photo.png" alt="" id="profile-photo">
+
+                <h1>ALEJANDRO DEL RIO</h1>
+                <h2>Software Developer</h2>
+                <div class="redes">
+                    <a href="https://www.instagram.com/delriolopezz/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/8492459460" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/alejandro-del-rio-461843213/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, Soy Alejandro Del Rio</span> Soy una persona que se destaca por encajar muy bien en los
+                grupos y equipos
+                ya que tanto como lider como parte juego muy bien mis funciones y aporto gran parte a los resultados,
+                siempre busco corregir,
+                mejorar y crear en cada oportunidad para facilitar los procesos ademas de aumentar los
+                beneficios.<br><br>
+
+                Soy una persona que identifica la oportunidad, toma cada parte, elimino los desperdicios, organizo todo
+                de la forma correcta,
+                mejoro las partes, agrego o creo las que se necesiten hasta concluir con un trabajo terminado funcional
+                y productivo que satisfazga
+                a todo el usuario. Esto siempre con el correcto manejo de la comunicacion efectiva y siguiendo todas las
+                normas.<br><br>
+
+                Soy autodidacta, empatico, analitico, ojo critico con los detalles, observador, colaborador y tengo buen
+                manejo de oratoria y escucha
+                en los diversos canales.
+            </p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            30-9-1985
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            849-245-9460
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alejandroalbertodelrio@gmail.com
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <!--interes-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <a download="" href="Alejandro Del Rio CV.pdf" target="_blank"> <span class="overlay"></span></a>
+            </button>
+
+    </section>
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--TECNICAL SKILLS-->
+                <Div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SAP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </Div>
+                        </div>
+                    </Div>
+                </Div>
+                <Div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </Div>
+                    </Div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Manager</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </Div>
+                </div>
+            </div>
+        </Div>
+        </Div>
+    </section>
+
+    <!--SECCION CURRICULO-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Administracion de Empresas</h4>
+                        <span class="lugar">Universidad Apec</span>
+                        <span class="fecha">2004 - 2012</span>
+                        <p>Motivado por el emprendedurismo y por la escalabilidad en una gran empresa decidi prepararme
+                            en esta licenciatura y experimentar el reto,
+                            en esta carrera aprendi a conocer a fondo tanto en teoria asi tambien como en la
+                            practica.<br><br>
+
+                            Ya que mientras estudiaba siempre estuve trabajando o en algún proyecto, lo cual me dio
+                            basta experiencia tanto en temas de administración,<br><br>
+
+                            Encargado de distintas áreas y de personal, como también de ventas, pero para mí lo más
+                            importante el manejo de distintos tipos de productos
+                            en gran parte de la cadena de valor.
+                        </p>
+                        <div class="conector conector_align-der">
+                            <div class="circulo circulo_float-der">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="lugar">Academia Militar del Caribe</span>
+                        <span class="fecha">1998 - 2003</span>
+                        <p>En esta institución aprendí además de los conocimientos secundarios necesarios a conocer mis
+                            capacidades físicas y potenciarla,
+                            fui jefe del pelotón especial el cual era totalmente pelotón y en este aprendí a manejar el
+                            miedo a todo tipo de situaciones.<br><br>
+
+                            Además a cargo de un gran número de aspirantes, los cuales tuve que evaluarlos dentro de
+                            varios meses de entrenamiento físico y mental,
+                            por lo que tuve que ser su jefe y su líder a la vez para manejar él equilibro de respeto y
+                            obediencia,<br><br>
+
+                            Hasta luego quedarme con los 20 más destacados y hacer una excelente presentación como
+                            equipo frente a la plana mayor de las fuerzas armadas.
+                        </p>
+                        <div class="conector conector_align-der">
+                            <div class="circulo circulo_float-der">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Coordinador de Trade marketing</h4>
+                        <span class="lugar">Grupo CAROL ( farmacias carol )</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <ul>
+                            <li>
+                                <p>Encargado de la planometría de los productos en góndolas y cabezales una vez obtenida
+                                    toda la data obtenida de los cubos, ventas y almacén vía Excel.
+
+                                    Utilizando "Spaceman" para cargar la data, imágenes y medidas tanto de productos
+                                    como de
+                                    espacios
+                                    donde se van a colocar cada tipo de productos por su categoría y marcas, buscando
+                                    lograr
+                                    mejor
+                                    rRotación, efectividad en los espacios y control de inventario.
+                                </p>
+                            </li><br>
+                            <li>
+                                <p>Visibilidad las sucursales en general, cada parte informativa "Poka Jokes", o de
+                                    promoción.</p>
+                            </li><br>
+                            <li>
+                                <p>Levantamiento de toda la zona donde se planea colocar una nueva sucursal para luego
+                                    analizar que sea factible.</p>
+                            </li><br>
+                        </ul>
+                        <div class="conector conector_align-izq">
+                            <div class="circulo circulo_float-izq">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinador de Trademarketing</h4>
+                        <span class="lugar">Pasteurizadora Rica</span>
+                        <span class="fecha">2019 - 2022</span>
+
+                        <ul>
+                            <li>
+                                <p>Responsable de la marca en Santo Domingo y el Este del país.</p>
+                            </li>
+                            <li>
+                                <p>Coordinación y supervision de un equipo de 47 subordinados.</p>
+                            </li>
+                            <li>
+                                <p>Responsable de la ejecución de la estrategia de marketing de los productos de la
+                                    empresa.</p>
+                            </li>
+                            <li>
+                                <p>Coordinación de planes comerciales, promocionales y de merchandising.</p>
+                            </li>
+                        </ul>
+                        </p>
+                        <div class="conector conector_align-izq">
+                            <div class="circulo circulo_float-izq">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Supervisor de Trademarketing</h4>
+                        <span class="lugar">Molinos Modernos</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <ul>
+                            <li>
+                                <p>Responsable de la marca en la región este del país.</p>
+                            </li>
+                            <li>
+                                <p>Supervisión y capacitación de un equipo de 20 subordinados.</p>
+                            </li>
+                            <li>
+                                <p>Responsable de la ejecución de la estrategia de marketing de los productos de la
+                                    empresa.</p>
+                            </li>
+                            <li>
+                                <p>Coordinación de planes comerciales, promocionales y de merchandising con Trade
+                                    Marketing.</p>
+                            </li>
+                            <li>
+                                <p>Dirección de actividades promocionales para consumidores.</p>
+                            </li>
+                        </ul>
+
+                        <div class="conector conector_align-izq">
+                            <div class="circulo circulo_float-izq">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista de Data maestra</h4>
+                        <span class="lugar">Molinos Modernos</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <p>
+                        <ul>
+                            <li>
+                                <p>Implementación de la plataforma SAP.</p>
+                            </li>
+                            <li>
+                                <p>Homologación de los materiales y productos de las empresas en toda la región Centro
+                                    Americama.</p>
+                            </li>
+                            <li>
+                                <p>Creación, edición y ampliación de materiales en el sistema.</p>
+                            </li>
+                        </ul>
+                        </p>
+                        <div class="conector conector_align-izq">
+                            <div class="circulo circulo_float-izq">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Telefono">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                    <form type="submit" type="reset" value="ENVIAR FORMULARIO" method="post"
+                        action="mailto:alejandroalbertodelrio@gmail.com" enctype="text/plain">
+                        <button>
+                            Envia mensaje <i class="fa-solid fa-message-lines"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="./dondevivomapa.JPG" alt="Mi ubicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Ens: Evaristo Morales, C/ Jose A. Brea Peña #106
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Hablemos: 849-245-9460
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: alejandroalbertodelrio@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/delriolopezz/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/8492459460" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/alejandro-del-rio-461843213/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
